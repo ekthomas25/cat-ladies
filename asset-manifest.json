@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cat-ladies/static/css/main.570883ea.css",
+    "main.js": "/cat-ladies/static/js/main.f15b8b0e.js",
+    "static/js/787.ff9bc604.chunk.js": "/cat-ladies/static/js/787.ff9bc604.chunk.js",
+    "static/media/kim-cat.png": "/cat-ladies/static/media/kim-cat.2002e924e9144f0e4eb4.png",
+    "static/media/katie-cat.png": "/cat-ladies/static/media/katie-cat.8643e183d4262eaac935.png",
+    "static/media/IndyTeeth.png": "/cat-ladies/static/media/IndyTeeth.23c073650fe88f83bebd.png",
+    "static/media/christy-bowtie-cat.png": "/cat-ladies/static/media/christy-bowtie-cat.612678fd95ef864b8c1b.png",
+    "static/media/cattongue.svg": "/cat-ladies/static/media/cattongue.15a80c274268ebf25dee.svg",
+    "index.html": "/cat-ladies/index.html",
+    "main.570883ea.css.map": "/cat-ladies/static/css/main.570883ea.css.map",
+    "main.f15b8b0e.js.map": "/cat-ladies/static/js/main.f15b8b0e.js.map",
+    "787.ff9bc604.chunk.js.map": "/cat-ladies/static/js/787.ff9bc604.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.570883ea.css",
+    "static/js/main.f15b8b0e.js"
+  ]
+}
