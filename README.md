@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### By Liz Thomas, Katie Pundt, Christy Welch, Kim Brannian
 
-## Available Scripts
+#### _mini description_
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+* _React.js_
+* _JavaScript_
+* _Node_
+* _npx create-react-app_
+* _Git_
+* _eslint_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://thecatapi.com/
+https://alexwohlbruck.github.io/cat-facts/docs/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup/Installation Requirements
 
-### `npm run build`
+### Your computer will need to have the following installed and set up:
+* _[GIT](https://docs.github.com/en/get-started/quickstart/set-up-git)_
+* _[Visual Studio Code](https://code.visualstudio.com/download)_
+* _[Node](https://nodejs.dev/learn/how-to-install-nodejs)_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### File Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* _Once you have VSCode and GIT set up, you will need to open up your terminal, navigate to your Desktop and type the command:_
+`git clone https://github.com/ekthomas25/ip-tap-room.git`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* _This will clone the repository to your desktop and you will be able to then open the folder in VSCode._
+* _Open the terminal in VSCode and navigate to_ `ip-tap-room` _and type the following command:_ `npm install`
+* _To view the project enter the following command in your terminal: `npm run start`_
 
-### `npm run eject`
+[INSERT COMPONENT DIAGRAM HERE]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Known Bugs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* _No known issues_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
+_[MIT License](https://opensource.org/licenses/MIT)_
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+_If you have any questions or would like to reach out for any reason, please don't hesitate to send an email to [thomas.elizabeth.k@gmail.com](mailto:thomas.elizabeth.k@gmail.com)._
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) 2022 Elizabeth Thomas, Katie Pundt, Christy Welch, Kim Brannian
