@@ -22,12 +22,14 @@ const Image = (props) => {
   console.log(gifResult)
   console.log(props.page)
 
-  const onImageClick = () => {
-    refetch()
+  const onGifButtonClick = () => {
+    gifRefetch()
+    props.onGifClick()
   }
 
-  const onGifClick = () => {
-    gifRefetch()
+  const onImageButtonClick = () => {
+    refetch()
+    props.onImageClick()
   }
 
   let currentStatus;
@@ -42,7 +44,7 @@ const Image = (props) => {
   }
 
   return (
-    <div>
+    <div id='main'>
       {currentStatus === 'loading' && (
         <div>Loading Cat Pictures</div>
       )}
@@ -54,9 +56,10 @@ const Image = (props) => {
       {currentStatus === 'success' && (
         <img src={`${currentData[0].url}`} />
       )}
-
-      <button onClick={() => props.setPage('image'), onImageClick}>Random Cat Image</button>
-      <button onClick={() => props.setPage('gif'), onGifClick}>Random Cat Gif</button>
+      <div id='buttons'>
+        <button onClick={onImageButtonClick}>Random Cat Image</button>
+        <button onClick={onGifButtonClick}>Random Cat Gif</button>
+      </div>
     </div>
   )
 }
