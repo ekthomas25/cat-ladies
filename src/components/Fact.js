@@ -11,18 +11,18 @@ const Fact = () => {
   const { data, status } = useQuery('fact', fetchFact);
   console.log(data);
   return (
-    <div>
+    <div className="fact">
       <h2>Cat Fact:</h2>
       {status === 'loading' && (
-        <div>Loading...</div>
+        <div><p>Loading...</p></div>
       )}
 
       {status === 'error' && (
-        <div>Error fetching data</div>
+        <div><p>Error fetching data</p></div>
       )}
 
       {status === 'success' && (
-        <div>{data.text}</div>
+        <div><p>{data.text}</p></div>
       )}
     </div>
   )
