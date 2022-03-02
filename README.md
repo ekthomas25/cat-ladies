@@ -1,8 +1,8 @@
-# Title
+# Cat Ladies
 
 #### By Liz Thomas, Katie Pundt, Christy Welch, Kim Brannian
 
-#### _mini description_
+#### _A website for cat lovers_
 
 ## Technologies Used
 
@@ -12,12 +12,12 @@
 * _npx create-react-app_
 * _Git_
 * _eslint_
-
-https://thecatapi.com/
-https://alexwohlbruck.github.io/cat-facts/docs/
+* _React Query_
+* _[The Cat API](https://thecatapi.com/)_
+* _[Cat Fact API](https://alexwohlbruck.github.io/cat-facts/docs/)_
 
 ## Description
-
+This is a web application created using two APIs to generate random images, gifs, and cat facts. A user can click a button and generate a new static image of a cat or click a different button to generate a new cat gif. It has dancing images of each of the four authors' cats.
 
 ## Setup/Installation Requirements
 
@@ -29,13 +29,13 @@ https://alexwohlbruck.github.io/cat-facts/docs/
 ### File Setup
 
 * _Once you have VSCode and GIT set up, you will need to open up your terminal, navigate to your Desktop and type the command:_
-`git clone https://github.com/ekthomas25/ip-tap-room.git`
+`git clone https://github.com/ekthomas25/cat-ladies.git`
 
 * _This will clone the repository to your desktop and you will be able to then open the folder in VSCode._
-* _Open the terminal in VSCode and navigate to_ `ip-tap-room` _and type the following command:_ `npm install`
+* _Open the terminal in VSCode and navigate to_ `cat-ladies` _and type the following command:_ `npm install`
 * _To view the project enter the following command in your terminal: `npm run start`_
 
-[INSERT COMPONENT DIAGRAM HERE]
+<img src="./src/images/component-diagram.png" />
 
 ## Known Bugs
 
